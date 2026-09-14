@@ -13,3 +13,5 @@ bcrypt
 
 segno
 pillow
+
+streamlit
