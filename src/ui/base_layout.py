@@ -30,6 +30,17 @@ def style_background_dashboard():
                """
                  ,unsafe_allow_html=True)
 
+# def color1(text):
+#     st.markdown(
+#         f"""
+#         <div style="color: black !important;">
+#             {text}
+#         </div>
+#         """,
+#         unsafe_allow_html=True
+#     )
+
+
 def style_base_layout():
     st.markdown("""
              <style>
@@ -51,6 +62,7 @@ def style_base_layout():
                    font-size: 3rem !important;
                    line-height:1.1 !important;
                    margin-bottom: 0rem !important;
+                   
                 }
 
                 h2 {
@@ -58,6 +70,7 @@ def style_base_layout():
                     font-size: 2rem !important;
                     line-height: 0.9 !important;
                     margin-bottom: 0 !important;
+                   
                 }
 
                 h3 , h4 , p {
