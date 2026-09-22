@@ -70,11 +70,21 @@ def style_base_layout():
                     font-size: 2rem !important;
                     line-height: 0.9 !important;
                     margin-bottom: 0 !important;
+                    color: black !important;
                    
                 }
 
-                h3 , h4 , p {
+                h3  {
                     font-family: 'Outfit' , sans-serif;
+                    # color: black !important;
+                }
+                p  {
+                    font-family: 'Outfit' , sans-serif;
+                    color: #4C1D95 !important;
+                }
+                h4 {
+                    font-family: 'Outfit' , sans-serif;
+                    color: black !important;
                 }
 
                 button[kind="secondary"]{
