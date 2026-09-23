@@ -5,6 +5,7 @@ from src.screens.student_screen import student_screen
 from src.screens.teacher_screen import teacher_screen
 
 def main():
+    st.write("LIVE TEST - 12345")
     st.set_page_config(
         page_title='SnapClass - Making Attendance faster using AI',
         page_icon='https://i.ibb.co/YTYGn5qV/logo.png '
